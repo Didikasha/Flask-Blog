@@ -1,7 +1,7 @@
 from datetime import datetime
 from app import db,login_manager
 
-def load_user(user_id):
+def load_user(user_id): #  function to obtain user using id
     return User,query.get
 
 class User(db.Model):
